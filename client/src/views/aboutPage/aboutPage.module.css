@@ -1,0 +1,59 @@
+.content_about {
+    min-width: 100%;
+    min-height: 100vh; 
+    max-height: 100vh;
+    color: #00425A;
+    background: #F9DBBB ;
+    overflow-y: auto;
+}
+
+.content_info {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    margin: 50px auto;
+}
+
+.content_info > img{
+    padding-left: 14px;
+}
+
+.content_info > img {
+    max-width: 250px;
+    border-radius: 40%;
+}
+
+.content_info > p {
+    width: 500px;
+    font-size: 18px;
+}
+
+.content_skills {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.card_skill {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    padding: 0 18px;
+    border-radius: 5px;
+    background-color: #FFF8F0;
+}
+
+.card_skill > code {
+    margin: 17px 0;
+    padding-left: 8px;
+    font-size: 17px;
+}
+
+@media (max-width: 970px) {
+    .content_info {
+      flex-direction: column;
+    }
+  }

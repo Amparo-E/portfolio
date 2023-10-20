@@ -1,0 +1,104 @@
+.contact_page {
+  position: relative;
+  min-width: 100%;
+  height: 100vh;
+  max-height: 100vh;
+  background-color: #f9dbbb;
+  display: flex; 
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: 16px;
+}
+
+.modal > h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 58px;
+  font-weight: 700;
+  color: #00425a;
+}
+
+.modal .form_col {
+  width: 60%;
+}
+
+.form_col > button {
+  height: 70px;
+  width: 160px;
+  margin-top: 20px;
+  background-color: #00425a;
+  color: #f9dbbb;
+  font-size: 17px;
+  border-radius: 48% 52% 28% 72% / 72% 15% 85% 28% ;
+  border: none;
+
+}
+
+
+.form_col > input, .form_col > textarea {
+  width: 70%;
+  height: 40px;
+  margin: 20px;
+  background: transparent;
+  outline: none;
+  font-size: 15px;
+  padding: 10px 0 10px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.form_col > textarea {
+  max-width: 70%;
+  max-height: 250px;
+  resize: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 970px) {
+  .modal {
+    width: 80%;
+  }
+
+  .modal .form_col {
+    width: 85%;
+  }
+
+  .form_group > input, .form_group > textarea {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+
